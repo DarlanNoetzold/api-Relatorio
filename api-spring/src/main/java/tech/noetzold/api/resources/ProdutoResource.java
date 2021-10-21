@@ -15,10 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import tech.noetzold.api.models.Produto;
 import tech.noetzold.api.repository.ProdutoRepository;
-
-
+import tech.noetzold.api.models.Produto;
 @CrossOrigin(origins = "*")
 @RestController
 @RequestMapping(value="/api")
